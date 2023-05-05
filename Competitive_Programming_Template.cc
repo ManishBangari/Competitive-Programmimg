@@ -1,34 +1,36 @@
 
-/* Date Created : 10 November 2022
+/* 
+Date Created : 10 November 2022
+Creator : Manish Bangari 
+*/
 
-Creator : Manish Bangari */
-
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll; 
-typedef long l;
+using ll = long long;
+using sll = signed long long;
+using ull = unsigned long long;
+using vi = vector<int>;
+using vl = vector<long>;
+#define all(x) x.begin(), x.end()
 
-#define PI 3.141592653589793238
+const int mod = 1e9 + 7;
+const float PI = 3.14159265358979323846264338327;
 
 void solve(){
 
-
-    return ;
+    return;
 }
+
 int main(){
+
+    int test;
 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t=0;
-    l a=0,b=0,c=0,x=0,y=0,z=0,p=0,q=0,r=0;
-
-    cin>>t;
-    while(t--){
-        cin>>   ;
-        solve();
-    }
+    cin >> test;
+    while (test--){	solve();	cout << "\n";	}
 
     return 0;
 }
