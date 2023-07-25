@@ -1,8 +1,8 @@
 /*
-Author : Manish Singh
-Date Created : 19 July 2023
+Author: Manish Singh
+Date Created: 19 July 2023
 
-This piece of code is to give the reader a general understanding of implementing comparator in C++.Enjoy :)
+This piece of code is to give the reader a general understanding of implementing comparator in C++. Enjoy :)
  
 */
 
@@ -54,14 +54,14 @@ int main(){
     cout<<"\n";
     
     // 2-D Vector
-    // Sort the 2-D vector on the basis of 2nd element in each 1-D vector in descending order
+    // Sort the 2-D vector on the basis of the 2nd element in each 1-D vector in descending order
      
     vector<vector<int>> v = {{1,3},{2,2},{3,1}};
     
     
     sort(v.begin(), v.end(), comp_vect);
 	
-	cout<<"\nThe output after sorting the 2-D vector on the basis of 2nd element in each 1-D vector in 				descending order is : \n";
+	cout<<"\nThe output after sorting the 2-D vector on the basis of the 2nd element in each 1-D vector in descending order is \n";
 	
 	for(vector<int> a : v){
     	cout<<a[0]<<' '<<a[1]<<"\n";    
