@@ -1,6 +1,6 @@
 
 /* 
-Date Created : 10 November 2022
+Date Created: 10 November 2022
 Creator : Manish Bangari 
 */
 
@@ -8,14 +8,29 @@ Creator : Manish Bangari
 using namespace std;
 
 using ll = long long;
-using sll = signed long long;
-using ull = unsigned long long;
 using vi = vector<int>;
 using vl = vector<long>;
-#define all(x) x.begin(), x.end()
+using pi = pair<int,int>;
 
-const int mod = 1e9 + 7;
-const float PI = 3.14159265358979323846264338327;
+#define pb push_back
+#define sz(x) (int) (x).size()
+#define all(x) x.begin(), x.end()
+#define f first
+#define s second
+#define mp make_pair
+
+const int MOD = 1e9 + 7;
+const float PI = 3.1415926535;
+
+int gcd(int a, int b){
+        int result = ((a < b) ? a : b);
+        while (result > 0) {
+            if (a % result == 0 && b % result == 0)	break;
+            result--;
+        }
+
+        return result;
+}
 
 void solve(){
 
